@@ -12,7 +12,9 @@ const useStyles = makeStyles(() =>
         fontFamily: "Nunito !important",
         textTransform: "capitalize !important",
       },
-      
+      ".css-1d3z3hw-MuiOutlinedInput-notchedOutline": {
+        border: 'none !important'
+      }
     },
   })
 );
